@@ -8,7 +8,7 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
-  project: default_2
+  project: default
   destination:
     namespace: team-platform
     server: {{ .Values.spec.destination.server }}
